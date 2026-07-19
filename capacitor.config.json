@@ -1,0 +1,24 @@
+{
+  "appId": "com.sakina.app",
+  "appName": "Sakina",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": false
+  },
+  "android": {
+    "allowMixedContent": false,
+    "webContentsDebuggingEnabled": false,
+    "backgroundColor": "#0e4038"
+  },
+  "plugins": {
+    "StatusBar": {
+      "overlaysWebView": true,
+      "style": "LIGHT",
+      "backgroundColor": "#0e4038"
+    },
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
